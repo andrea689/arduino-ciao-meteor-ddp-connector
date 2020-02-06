@@ -1,10 +1,10 @@
-#Arduino Ciao DDP Meteor Connector
+# Arduino Ciao DDP Meteor Connector
 
 A DDP Connector to call remote functions of a [Meteor](http://www.meteor.com/) server from an Arduino sketch.
 
 You can install **Ciao** in your Arduino following [this guide](http://labs.arduino.org/Ciao+setup) 
 
-##Installation and configuration of the connector
+## Installation and configuration of the connector
 
 1) Insert the host address and port of your Meteor server in the file [ddp/ddp.json.conf](ddp/ddp.json.conf)
 
@@ -12,7 +12,7 @@ You can install **Ciao** in your Arduino following [this guide](http://labs.ardu
 
 3) Copy the DDP Connector configuration file named [ddp.json.conf](ddp.json.conf) to the Arduino Ciao **conf** folder (/usr/lib/python2.7/ciao/conf)
 
-##Examples
+## Examples
 
 In all examples you need to include the Arduino Ciao Library and start it on the **setup()**:
 
@@ -93,13 +93,13 @@ void loop() {
 
 ```
 
-##History
+## History
 
 **Version** 0.0.1
 
 - Initial implementation, add ability to remote call
 
-##TODO
+## TODO
 
 - Add implementation of read method to receive information from Meteor
 
